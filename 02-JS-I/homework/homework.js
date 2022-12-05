@@ -151,25 +151,38 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  var elevarAlCuadrado = num**2;
+
+  return elevarAlCuadrado;
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  var elevarAlCubo = num**3;
+
+  return elevarAlCubo;
   
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  var elevar = num ** exponent;
+
+  return elevar;
+
   
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+  var redondearNumero = Math.round(num);
   
+  return redondearNumero;
+
 }
 
 function redondearHaciaArriba(num) {
